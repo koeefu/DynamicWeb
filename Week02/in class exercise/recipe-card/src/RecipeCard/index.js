@@ -1,4 +1,4 @@
-import Resct from 'react'
+import React from 'react'
 import {RECIPE} from './recipe-data'
 import RecipeInfo from './recipeinfo'
 import RecipeImg from './recipeimg'

@@ -5,7 +5,7 @@ export default function InstructionsList (props) {
 
     return (
         <div id = "instru">
-            <div class = "headFrame"><h2>Instructions</h2></div>
+            <div className = "headFrame"><h2>Instructions</h2></div>
             <div id = "instruLi">
                 <ol>
                 {instructions.map((i, index) => (

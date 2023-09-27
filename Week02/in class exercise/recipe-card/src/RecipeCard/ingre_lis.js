@@ -5,7 +5,7 @@ export default function IngredientsList (props) {
 
     return (
         <div id = "ingre">
-            <div class = "headFrame"><h2>Ingredients</h2></div>
+            <div className = "headFrame"><h2>Ingredients</h2></div>
             <div id = "ingreLi">
                 <ul>
                     {ingredients.map((i, index) => (
