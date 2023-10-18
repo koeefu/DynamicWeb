@@ -142,7 +142,7 @@ input[name = "detail"] {
 
 
 
-.checkbox_wrapper_18 .round {
+/* .checkbox_wrapper_18 .round {
     position: relative;
   }
 
@@ -183,4 +183,4 @@ input[name = "detail"] {
 
   .checkbox_wrapper_18 .round input[type="checkbox"]:checked + label:after {
     opacity: 1;
-  }
+  } */
