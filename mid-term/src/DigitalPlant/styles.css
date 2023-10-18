@@ -1,0 +1,16 @@
+body {
+    background-color: #A6A6A6;
+    margin: 0;
+}
+
+.card {
+    display: flex;
+    padding: 94px 52px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem;
+
+    background: var(--bg-color, #D9D9D9);
+}
+

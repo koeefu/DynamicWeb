@@ -5,6 +5,7 @@
 
 body {
     font-family: 'Space Mono';
+    margin: 0;
 }
 
 .card {
@@ -22,6 +23,31 @@ body {
     gap: 24px;
 }
 
+/* full height background image */
+.card .img_holder{
+    flex-basis: 30%;
+    height: 500px;
+    /* background-color: pink; */
+    color: red;
+    /* background-image: url( props.imgSrc ); */
+    background-size: auto 100%;
+    background-position: center center;
+}
+
+.recipe_wrapper{
+    flex-basis: 70%;
+}
+
+/* divide the recipe card into two parts */
+.upper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+} 
+
+
+/* images */
 .header_img {
     width: max-content;
     flex-shrink: 0;
@@ -32,7 +58,8 @@ body {
     height: auto;
     object-fit: cover;
 }
-  
+
+
 .recipe_info {
     margin-left: 1.5rem;
 }
@@ -135,9 +162,3 @@ body {
     border:none;
 }
 
-/* divide the recipe card into two parts */
-.upper {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-} 
