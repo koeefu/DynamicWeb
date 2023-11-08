@@ -30,17 +30,12 @@ export default function Checklist(props) {
                     </div>
 
                     <div>
-                        {/* <div className={styles.checkbox_wrapper_18}> */}
-                            {/* <div className={styles.round}> */}
-                                <input 
-                                    type = "checkbox" 
-                                    name = "check" 
-                                    id="checkbox-18" 
-                                    checked = {checkboxes[index * 4 + checkboxIndex]}
-                                    onChange = {() => handleCheckboxChange(index, checkboxIndex)} />
-                                {/* <label for="checkbox-18"></label> */}
-                            {/* </div> */}
-                        {/* </div> */}
+                        <input 
+                            type = "checkbox" 
+                            name = "check" 
+                            id="checkbox-18" 
+                            checked = {checkboxes[index * 4 + checkboxIndex]}
+                            onChange = {() => handleCheckboxChange(index, checkboxIndex)} />
                     </div>
                 </div>
             ))}
